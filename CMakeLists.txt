@@ -68,7 +68,7 @@ if( NOT USE_MYSQL_SOURCES )
   find_package(MySQL REQUIRED)
 endif()
 
-if( UNIX )
+if( WIN )
   find_package(Readline)
   find_package(ZLIB)
   find_package(BZip2)
